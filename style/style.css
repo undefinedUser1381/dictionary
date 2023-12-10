@@ -28,13 +28,6 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Responsive */
-@media (max-width:576px) {
-   .dictionary__box {
-     width: 80%;
-   }
-}
-
 .dictionary__box {
   background-color:#FFFDFA;
   width: 35rem;
@@ -122,4 +115,11 @@ h3 {
 }
 .open{
     display: block;
+}
+
+/* Responsive */
+@media (max-width:576px) {
+  .dictionary__box {
+    width: 80%;
+  }
 }
